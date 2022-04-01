@@ -141,7 +141,6 @@ namespace HeuristicLab.Problems.DataAnalysis.Symbolic {
 
       var rowsArray = rows.ToArray();
       var result = new double[rowsArray.Length];
-
       NativeWrapper.GetValuesVectorized(code, code.Length, rowsArray, rowsArray.Length, result);
 
       // when evaluation took place without any error, we can increment the counter

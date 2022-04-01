@@ -19,6 +19,8 @@
  */
 #endregion
 
+extern alias alglib_3_17;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

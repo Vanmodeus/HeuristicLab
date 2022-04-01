@@ -121,7 +121,6 @@
     <Reference Update="System.Data">
       <Name>System.Data</Name>
     </Reference>
-    <Reference Include="System.Design" />
     <Reference Update="System.Drawing">
       <Name>System.Drawing</Name>
     </Reference>

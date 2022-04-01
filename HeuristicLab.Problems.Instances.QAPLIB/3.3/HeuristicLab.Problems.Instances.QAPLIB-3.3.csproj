@@ -15,9 +15,6 @@
     <AssemblyOriginatorKeyFile>HeuristicLab.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System.IO.Compression" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Data\qap.dat.zip" />
     <EmbeddedResource Include="Data\qap.sln.zip" />
     <EmbeddedResource Include="Data\microarray.dat.zip" />

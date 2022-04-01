@@ -38,7 +38,6 @@
     </PreBuildEvent>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="ICSharpCode.NRefactory" Version="5.5.1" />
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.310801">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
