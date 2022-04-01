@@ -25,7 +25,6 @@ using System.IO;
 using System.Linq;
 using HeuristicLab.Encodings.SymbolicExpressionTreeEncoding.Views;
 using OfficeOpenXml;
-using OfficeOpenXml.Drawing.Chart;
 
 namespace HeuristicLab.Problems.DataAnalysis.Symbolic.Views {
   public class SymbolicSolutionExcelExporter : IDataAnalysisSolutionExporter {
@@ -234,7 +233,7 @@ namespace HeuristicLab.Problems.DataAnalysis.Symbolic.Views {
       chartsWorksheet.Names.AddFormula("TestTarget", "OFFSET('Estimated Values'!$B$1,Model!TestStart + 1,0, Model!TestEnd - Model!TestStart)");
       chartsWorksheet.Names.AddFormula("TestEstimated", "OFFSET('Estimated Values'!$C$1,Model!TestStart + 1,0, Model!TestEnd - Model!TestStart)");
 
-      var scatterPlot = chartsWorksheet.Drawings.AddChart("scatterPlot", eChartType.XYScatter);
+      var scatterPlot = chartsWorksheet.Drawings.AddChart("scatterPlot", OfficeOpenXml.Drawing.Chart.eChartType.XYScatter);
       scatterPlot.SetSize(800, 400);
       scatterPlot.SetPosition(0, 0);
       scatterPlot.Title.Text = "Scatter Plot";
@@ -245,7 +244,7 @@ namespace HeuristicLab.Problems.DataAnalysis.Symbolic.Views {
       var seriesTest = scatterPlot.Series.Add("TestTarget", "TestEstimated");
       seriesTest.Header = "Test";
 
-      var lineChart = chartsWorksheet.Drawings.AddChart("lineChart", eChartType.XYScatterLinesNoMarkers);
+      var lineChart = chartsWorksheet.Drawings.AddChart("lineChart", OfficeOpenXml.Drawing.Chart.eChartType.XYScatterLinesNoMarkers);
       lineChart.SetSize(800, 400);
       lineChart.SetPosition(400, 0);
       lineChart.Title.Text = "LineChart";

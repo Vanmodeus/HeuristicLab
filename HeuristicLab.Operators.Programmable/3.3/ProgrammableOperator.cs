@@ -259,7 +259,8 @@ namespace HeuristicLab.Operators.Programmable {
       // mscorlib automatically included (would cause duplicate)
       typeof(System.ComponentModel.INotifyPropertyChanged).Assembly, // System.dll
       typeof(System.Linq.Enumerable).Assembly,  // System.Core.dll
-      typeof(System.Data.Linq.DataContext).Assembly, // System.Data.Linq.dll
+      //TODO: .NET6
+      //typeof(System.Data.Linq.DataContext).Assembly, // System.Data.Linq.dll
       typeof(HeuristicLab.Common.IDeepCloneable).Assembly,
       typeof(HeuristicLab.Core.Item).Assembly,
       typeof(HeuristicLab.Data.IntValue).Assembly,

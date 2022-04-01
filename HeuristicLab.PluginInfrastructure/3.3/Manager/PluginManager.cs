@@ -73,12 +73,15 @@ namespace HeuristicLab.PluginInfrastructure.Manager {
     public void DiscoverAndCheckPlugins() {
       OnInitializing(PluginInfrastructureEventArgs.Empty);
       AppDomainSetup setup = AppDomain.CurrentDomain.SetupInformation;
-      setup.ApplicationBase = pluginDir;
+      //TODO: .NET6
+      //setup.ApplicationBase = pluginDir;
       AppDomain pluginDomain = null;
       try {
-        pluginDomain = AppDomain.CreateDomain("plugin domain", null, setup);
+        //TODO .NET6
+        //pluginDomain = AppDomain.CreateDomain("plugin domain", null, setup);
         Type pluginValidatorType = typeof(PluginValidator);
-        PluginValidator remoteValidator = (PluginValidator)pluginDomain.CreateInstanceAndUnwrap(pluginValidatorType.Assembly.FullName, pluginValidatorType.FullName, true, BindingFlags.NonPublic | BindingFlags.Instance, null, null, null, null);
+
+        PluginValidator remoteValidator = new PluginValidator(); //TODO: .NET6 (PluginValidator)pluginDomain.CreateInstanceAndUnwrap(pluginValidatorType.Assembly.FullName, pluginValidatorType.FullName, true, BindingFlags.NonPublic | BindingFlags.Instance, null, null, null, null);
         remoteValidator.PluginDir = pluginDir;
         // forward all events from the remoteValidator to listeners
         remoteValidator.PluginLoaded +=
@@ -92,7 +95,8 @@ namespace HeuristicLab.PluginInfrastructure.Manager {
       }
       finally {
         // discard the AppDomain that was used for plugin discovery
-        AppDomain.Unload(pluginDomain);
+        //TODO: .NET6
+        //AppDomain.Unload(pluginDomain);
         // unload all plugins
         foreach (var pluginDescription in plugins.Where(x => x.PluginState == PluginState.Loaded)) {
           pluginDescription.Unload();
@@ -119,8 +123,9 @@ namespace HeuristicLab.PluginInfrastructure.Manager {
       AppDomain applicationDomain = null;
       try {
         AppDomainSetup setup = AppDomain.CurrentDomain.SetupInformation;
-        setup.PrivateBinPath = pluginDir;
-        applicationDomain = AppDomain.CreateDomain(AppDomain.CurrentDomain.FriendlyName, null, setup);
+        //TODO: .NET6
+        //setup.PrivateBinPath = pluginDir;
+        //applicationDomain = AppDomain.CreateDomain(AppDomain.CurrentDomain.FriendlyName, null, setup);
         Type applicationManagerType = typeof(DefaultApplicationManager);
         DefaultApplicationManager applicationManager =
           (DefaultApplicationManager)applicationDomain.CreateInstanceAndUnwrap(applicationManagerType.Assembly.FullName, applicationManagerType.FullName, true, BindingFlags.NonPublic | BindingFlags.Instance, null, null, null, null);

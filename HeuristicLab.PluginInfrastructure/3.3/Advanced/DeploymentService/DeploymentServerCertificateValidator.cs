@@ -23,6 +23,7 @@ using System;
 using System.IdentityModel.Selectors;
 using System.IdentityModel.Tokens;
 using System.Security.Cryptography.X509Certificates;
+using Microsoft.IdentityModel.Tokens;
 
 namespace HeuristicLab.PluginInfrastructure.Advanced.DeploymentService {
   internal class DeploymentServerCertificateValidator : X509CertificateValidator {

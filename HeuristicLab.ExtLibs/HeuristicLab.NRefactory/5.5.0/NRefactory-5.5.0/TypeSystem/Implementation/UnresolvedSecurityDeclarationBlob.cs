@@ -27,7 +27,8 @@ namespace ICSharpCode.NRefactory.TypeSystem.Implementation
 	public sealed class UnresolvedSecurityDeclarationBlob
 	{
 		static readonly ITypeReference securityActionTypeReference = typeof(System.Security.Permissions.SecurityAction).ToTypeReference();
-		static readonly ITypeReference permissionSetAttributeTypeReference = typeof(System.Security.Permissions.PermissionSetAttribute).ToTypeReference();
+		//TODO: .NET6
+        //static readonly ITypeReference permissionSetAttributeTypeReference = typeof(System.Security.Permissions.PermissionSetAttribute).ToTypeReference();
 		
 		readonly IConstantValue securityAction;
 		readonly byte[] blob;
@@ -46,12 +47,13 @@ namespace ICSharpCode.NRefactory.TypeSystem.Implementation
 				}
 			} else {
 				// for backward compatibility with .NET 1.0: XML-encoded attribute
-				var attr = new DefaultUnresolvedAttribute(permissionSetAttributeTypeReference);
-				attr.ConstructorParameterTypes.Add(securityActionTypeReference);
-				attr.PositionalArguments.Add(this.securityAction);
-				string xml = System.Text.Encoding.Unicode.GetString(blob);
-				attr.AddNamedPropertyArgument("XML", new SimpleConstantValue(KnownTypeReference.String, xml));
-				unresolvedAttributes.Add(attr);
+				//TODO: .NET6
+                //var attr = new DefaultUnresolvedAttribute(permissionSetAttributeTypeReference);
+				//attr.ConstructorParameterTypes.Add(securityActionTypeReference);
+				//attr.PositionalArguments.Add(this.securityAction);
+				//string xml = System.Text.Encoding.Unicode.GetString(blob);
+				//attr.AddNamedPropertyArgument("XML", new SimpleConstantValue(KnownTypeReference.String, xml));
+				//unresolvedAttributes.Add(attr);
 			}
 		}
 		

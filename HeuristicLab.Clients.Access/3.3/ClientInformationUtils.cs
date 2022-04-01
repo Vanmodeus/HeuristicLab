@@ -57,18 +57,20 @@ namespace HeuristicLab.Clients.Access {
     }
 
     public static ClientConfiguration GetClientConfiguration() {
-      try {
-        string filePath = AppDomain.CurrentDomain.SetupInformation.ConfigurationFile;
-        byte[] fileContent = File.ReadAllBytes(filePath);
-        byte[] hashBytes;
-        using (SHA1 sha1 = SHA1.Create()) hashBytes = sha1.ComputeHash(fileContent);
-        StringBuilder sb = new StringBuilder();
-        foreach (byte b in hashBytes) sb.Append(b.ToString("x2"));
-        return new ClientConfiguration { Hash = sb.ToString() };
-      }
-      catch {
-        return null;
-      }
+      //TODO: .NET6
+      //try {
+      //  string filePath = AppDomain.CurrentDomain.SetupInformation.ConfigurationFile;
+      //  byte[] fileContent = File.ReadAllBytes(filePath);
+      //  byte[] hashBytes;
+      //  using (SHA1 sha1 = SHA1.Create()) hashBytes = sha1.ComputeHash(fileContent);
+      //  StringBuilder sb = new StringBuilder();
+      //  foreach (byte b in hashBytes) sb.Append(b.ToString("x2"));
+      //  return new ClientConfiguration { Hash = sb.ToString() };
+      //}
+      //catch {
+      //  return null;
+      //}
+      return null;
     }
 
     public static string GetHLVersion() {
