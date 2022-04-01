@@ -20,7 +20,6 @@
 #endregion
 
 using System;
-using System.Windows.Forms;
 
 namespace HeuristicLab.PluginInfrastructure {
   public static class ErrorHandling {
@@ -41,29 +40,6 @@ namespace HeuristicLab.PluginInfrastructure {
                      exception.StackTrace;
         }
         return message;
-      }
-    }
-
-    public static void ShowErrorDialog(Exception exception) {
-      ShowErrorDialog(string.Empty, exception);
-    }
-    public static void ShowErrorDialog(Control owner, Exception exception) {
-      ShowErrorDialog(owner, string.Empty, exception);
-    }
-    public static void ShowErrorDialog(string message, Exception exception) {
-      using (ErrorDialog dialog = new ErrorDialog(message, exception)) {
-        dialog.StartPosition = FormStartPosition.CenterScreen;
-        dialog.ShowDialog();
-      }
-    }
-    public static void ShowErrorDialog(Control owner, string message, Exception exception) {
-      if (owner == null) throw new ArgumentNullException("owner");
-      if (owner.InvokeRequired) {
-        owner.Invoke(new Action<Control, string, Exception>(ShowErrorDialog), owner, message, exception);
-      } else {
-        using (ErrorDialog dialog = new ErrorDialog(message, exception)) {
-          dialog.ShowDialog(owner);
-        }
       }
     }
   }

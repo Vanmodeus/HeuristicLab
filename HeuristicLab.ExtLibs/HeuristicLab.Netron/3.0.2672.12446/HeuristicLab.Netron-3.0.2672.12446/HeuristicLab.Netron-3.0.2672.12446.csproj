@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
     <RootNamespace>HeuristicLab.Netron</RootNamespace>
     <SignAssembly>true</SignAssembly>
@@ -41,7 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\HeuristicLab.PluginInfrastructure\3.3\HeuristicLab.PluginInfrastructure-3.3.csproj" />
-    <ProjectReference Include="..\Netron.Diagramming.Core-3.0.2672.12446\Netron.Diagramming.Core-3.0.2672.12446.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Netron.Diagramming.Core License.txt">

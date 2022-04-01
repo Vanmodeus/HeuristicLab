@@ -25,7 +25,6 @@ namespace HeuristicLab {
   static class Program {
     [STAThread]
     static void Main(string[] args) {
-      HeuristicLab.PluginInfrastructure.Main.Run(args);
     }
   }
 }

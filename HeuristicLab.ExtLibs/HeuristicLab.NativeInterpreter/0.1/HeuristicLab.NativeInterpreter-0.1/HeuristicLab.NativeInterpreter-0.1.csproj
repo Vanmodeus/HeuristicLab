@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <OutputType>Library</OutputType>
     <RootNamespace>HeuristicLab.Problems.DataAnalysis.Symbolic.NativeInterpreter</RootNamespace>
     <AssemblyName>HeuristicLab.Problems.DataAnalysis.Symbolic.NativeInterpreter-0.1</AssemblyName>

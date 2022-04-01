@@ -13,9 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		PreBuildEvent.cmd = PreBuildEvent.cmd
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab-3.3", "HeuristicLab\3.3\HeuristicLab-3.3.csproj", "{B1DCDECA-B56E-41D5-9850-EF0D3A77DEAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab-3.3", "HeuristicLab\3.3\HeuristicLab-3.3.csproj", "{B1DCDECA-B56E-41D5-9850-EF0D3A77DEAF}"
 	ProjectSection(ProjectDependencies) = postProject
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750} = {315BDA09-3F4F-49B3-9790-B37CFC1C5750}
 		{8C265E11-4F8D-4CED-9E6B-F400A0075C18} = {8C265E11-4F8D-4CED-9E6B-F400A0075C18}
 		{25087811-F74C-4128-BC86-8324271DA13E} = {25087811-F74C-4128-BC86-8324271DA13E}
 		{5AC82412-911B-4FA2-A013-EDC5E3F3FCC2} = {5AC82412-911B-4FA2-A013-EDC5E3F3FCC2}
@@ -166,8 +165,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Common-3.3", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.MainForm-3.3", "HeuristicLab.MainForm\3.3\HeuristicLab.MainForm-3.3.csproj", "{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Visualization.ChartControlsExtensions-3.3", "HeuristicLab.Visualization.ChartControlsExtensions\3.3\HeuristicLab.Visualization.ChartControlsExtensions-3.3.csproj", "{315BDA09-3F4F-49B3-9790-B37CFC1C5750}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.DebugEngine-3.3", "HeuristicLab.DebugEngine\3.3\HeuristicLab.DebugEngine-3.3.csproj", "{49F28045-7B5F-411B-8D59-16C846FA26E0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.NSGA2-3.3", "HeuristicLab.Algorithms.NSGA2\3.3\HeuristicLab.Algorithms.NSGA2-3.3.csproj", "{15452B9F-A436-4139-8EE7-DA72FB8D3664}"
@@ -200,13 +197,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.Ben
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances-3.3", "HeuristicLab.Problems.Instances\3.3\HeuristicLab.Problems.Instances-3.3.csproj", "{3540E29E-4793-49E7-8EE2-FEA7F61C3994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.Instances.ElloumiCTAP-3.3", "HeuristicLab.Problems.Instances.ElloumiCTAP\3.3\HeuristicLab.Problems.Instances.ElloumiCTAP-3.3.csproj", "{CCF61DA0-B226-4C0F-8052-29ACC6BDE6EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.ElloumiCTAP-3.3", "HeuristicLab.Problems.Instances.ElloumiCTAP\3.3\HeuristicLab.Problems.Instances.ElloumiCTAP-3.3.csproj", "{CCF61DA0-B226-4C0F-8052-29ACC6BDE6EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.Instances.QAPLIB-3.3", "HeuristicLab.Problems.Instances.QAPLIB\3.3\HeuristicLab.Problems.Instances.QAPLIB-3.3.csproj", "{73F29D43-5714-4069-8FAB-0D18FEB5F175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.QAPLIB-3.3", "HeuristicLab.Problems.Instances.QAPLIB\3.3\HeuristicLab.Problems.Instances.QAPLIB-3.3.csproj", "{73F29D43-5714-4069-8FAB-0D18FEB5F175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.Instances.TSPLIB-3.3", "HeuristicLab.Problems.Instances.TSPLIB\3.3\HeuristicLab.Problems.Instances.TSPLIB-3.3.csproj", "{CE0F99D6-1C56-48A9-9B68-3E5B833703EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.TSPLIB-3.3", "HeuristicLab.Problems.Instances.TSPLIB\3.3\HeuristicLab.Problems.Instances.TSPLIB-3.3.csproj", "{CE0F99D6-1C56-48A9-9B68-3E5B833703EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.Instances.CordeauGQAP-3.3", "HeuristicLab.Problems.Instances.CordeauGQAP\3.3\HeuristicLab.Problems.Instances.CordeauGQAP-3.3.csproj", "{1F2718DA-BF13-40EE-A7FD-EEDB4912E64E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.CordeauGQAP-3.3", "HeuristicLab.Problems.Instances.CordeauGQAP\3.3\HeuristicLab.Problems.Instances.CordeauGQAP-3.3.csproj", "{1F2718DA-BF13-40EE-A7FD-EEDB4912E64E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.DataAnalysis-3.3", "HeuristicLab.Problems.Instances.DataAnalysis\3.3\HeuristicLab.Problems.Instances.DataAnalysis-3.3.csproj", "{94C7714E-29D4-4D6D-B213-2C18D627AB75}"
 EndProject
@@ -214,7 +211,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Linea
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.VehicleRouting-3.4", "HeuristicLab.Problems.VehicleRouting\3.4\HeuristicLab.Problems.VehicleRouting-3.4.csproj", "{B94FFB82-43D4-40AB-9980-B03470ADF221}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.Instances.VehicleRouting-3.4", "HeuristicLab.Problems.Instances.VehicleRouting\3.4\HeuristicLab.Problems.Instances.VehicleRouting-3.4.csproj", "{8C265E11-4F8D-4CED-9E6B-F400A0075C18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.VehicleRouting-3.4", "HeuristicLab.Problems.Instances.VehicleRouting\3.4\HeuristicLab.Problems.Instances.VehicleRouting-3.4.csproj", "{8C265E11-4F8D-4CED-9E6B-F400A0075C18}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.ScatterSearch-3.3", "HeuristicLab.Algorithms.ScatterSearch\3.3\HeuristicLab.Algorithms.ScatterSearch-3.3.csproj", "{5FEE5DB4-7FD9-4CBD-BEC2-3FEE17B31A94}"
 EndProject
@@ -231,13 +228,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.DataA
 		{5AC82412-911B-4FA2-A013-EDC5E3F3FCC2} = {5AC82412-911B-4FA2-A013-EDC5E3F3FCC2}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.Instances.Scheduling-3.3", "HeuristicLab.Problems.Instances.Scheduling\3.3\HeuristicLab.Problems.Instances.Scheduling-3.3.csproj", "{9D792B6D-836B-46DC-9D69-50B4B1E7B87F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.Scheduling-3.3", "HeuristicLab.Problems.Instances.Scheduling\3.3\HeuristicLab.Problems.Instances.Scheduling-3.3.csproj", "{9D792B6D-836B-46DC-9D69-50B4B1E7B87F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.DataAnalysis.Trading-3.4", "HeuristicLab.Problems.DataAnalysis.Trading\3.4\HeuristicLab.Problems.DataAnalysis.Trading-3.4.csproj", "{E4EE5AFB-D552-447B-8A16-6CBE7938AF32}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Scripting-3.3", "HeuristicLab.Scripting\3.3\HeuristicLab.Scripting-3.3.csproj", "{21977CC3-1757-4B3B-87BD-FF817AAA900F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.ParameterOptimization-3.3", "HeuristicLab.Problems.ParameterOptimization\3.3\HeuristicLab.Problems.ParameterOptimization-3.3.csproj", "{D2C39FBA-A1D5-403A-9211-B0A299A76313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.ParameterOptimization-3.3", "HeuristicLab.Problems.ParameterOptimization\3.3\HeuristicLab.Problems.ParameterOptimization-3.3.csproj", "{D2C39FBA-A1D5-403A-9211-B0A299A76313}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.DataPreprocessing-3.4", "HeuristicLab.DataPreprocessing\3.4\HeuristicLab.DataPreprocessing-3.4.csproj", "{3B90F866-70F8-43EF-A541-51819D255B7B}"
 EndProject
@@ -257,11 +254,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Encodings.Line
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Orienteering-3.3", "HeuristicLab.Problems.Orienteering\3.3\HeuristicLab.Problems.Orienteering-3.3.csproj", "{D1EFA4CC-909F-41D5-9C1F-C3AF1957A372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.Instances.Orienteering-3.3", "HeuristicLab.Problems.Instances.Orienteering\3.3\HeuristicLab.Problems.Instances.Orienteering-3.3.csproj", "{B37BF2DD-752C-456A-9DEF-FF5B41FC3C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.Orienteering-3.3", "HeuristicLab.Problems.Instances.Orienteering\3.3\HeuristicLab.Problems.Instances.Orienteering-3.3.csproj", "{B37BF2DD-752C-456A-9DEF-FF5B41FC3C77}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.GeneticProgramming-3.3", "HeuristicLab.Problems.GeneticProgramming\3.3\HeuristicLab.Problems.GeneticProgramming-3.3.csproj", "{02CDDBF5-42A7-4C40-AE6C-E5D29AC9CCEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.GrammaticalEvolution-3.4", "HeuristicLab.Problems.GrammaticalEvolution\3.4\HeuristicLab.Problems.GrammaticalEvolution-3.4.csproj", "{9372D115-D933-40D2-BD29-A2C1EAC35874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.GrammaticalEvolution-3.4", "HeuristicLab.Problems.GrammaticalEvolution\3.4\HeuristicLab.Problems.GrammaticalEvolution-3.4.csproj", "{9372D115-D933-40D2-BD29-A2C1EAC35874}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.OffspringSelectionEvolutionStrategy-3.3", "HeuristicLab.Algorithms.OffspringSelectionEvolutionStrategy\3.3\HeuristicLab.Algorithms.OffspringSelectionEvolutionStrategy-3.3.csproj", "{1D41EAE6-CC79-41D4-858C-589C4DB5E50D}"
 EndProject
@@ -275,23 +272,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.TestF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.BinPacking-3.3", "HeuristicLab.Problems.BinPacking\3.3\HeuristicLab.Problems.BinPacking-3.3.csproj", "{F8A55094-3CD5-4034-B0CA-5BD7FFB016D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Algorithms.DataAnalysis.Glmnet-3.4", "HeuristicLab.Algorithms.DataAnalysis.Glmnet\3.4\HeuristicLab.Algorithms.DataAnalysis.Glmnet-3.4.csproj", "{4C7F6D8A-B279-4898-ACD6-7BE39111DEF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.DataAnalysis.Glmnet-3.4", "HeuristicLab.Algorithms.DataAnalysis.Glmnet\3.4\HeuristicLab.Algorithms.DataAnalysis.Glmnet-3.4.csproj", "{4C7F6D8A-B279-4898-ACD6-7BE39111DEF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Problems.Instances.DIMACS-3.3", "HeuristicLab.Problems.Instances.DIMACS\3.3\HeuristicLab.Problems.Instances.DIMACS-3.3.csproj", "{9943FF23-8619-459C-B84A-E7FBDCBA04E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.Instances.DIMACS-3.3", "HeuristicLab.Problems.Instances.DIMACS\3.3\HeuristicLab.Problems.Instances.DIMACS-3.3.csproj", "{9943FF23-8619-459C-B84A-E7FBDCBA04E6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Problems.GraphColoring-3.3", "HeuristicLab.Problems.GraphColoring\3.3\HeuristicLab.Problems.GraphColoring-3.3.csproj", "{4B76E2CB-A990-4959-B080-1D81D418D325}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.MOCMAEvolutionStrategy-3.3", "HeuristicLab.Algorithms.MOCMAEvolutionStrategy\3.3\HeuristicLab.Algorithms.MOCMAEvolutionStrategy-3.3.csproj", "{0E2E224F-E9B2-41F3-B510-09183EEBA2AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Algorithms.DataAnalysis.DecisionTrees-3.4", "HeuristicLab.Algorithms.DataAnalysis.DecisionTrees\3.4\HeuristicLab.Algorithms.DataAnalysis.DecisionTrees-3.4.csproj", "{541A53F3-E6A7-402F-91BB-D76041CDD9FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.DataAnalysis.DecisionTrees-3.4", "HeuristicLab.Algorithms.DataAnalysis.DecisionTrees\3.4\HeuristicLab.Algorithms.DataAnalysis.DecisionTrees-3.4.csproj", "{541A53F3-E6A7-402F-91BB-D76041CDD9FD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.MultiObjectiveLocalSearch", "HeuristicLab.Algorithms.MultiObjectiveLocalSearch\3.3\HeuristicLab.Algorithms.MultiObjectiveLocalSearch.csproj", "{4CCDD23A-9FA3-4B36-9469-87D67E99225F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.DayView-1.0", "HeuristicLab.ExtLibs\HeuristicLab.DayView\1.0\HeuristicLab.DayView-1.0.csproj", "{02766ECC-D0F5-4115-9ECA-47409167B638}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Netron-3.0.2672.12446", "HeuristicLab.ExtLibs\HeuristicLab.Netron\3.0.2672.12446\HeuristicLab.Netron-3.0.2672.12446\HeuristicLab.Netron-3.0.2672.12446.csproj", "{BB994448-2B21-4564-BB2E-38D8FFF8CF18}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netron.Diagramming.Core-3.0.2672.12446", "HeuristicLab.ExtLibs\HeuristicLab.Netron\3.0.2672.12446\Netron.Diagramming.Core-3.0.2672.12446\Netron.Diagramming.Core-3.0.2672.12446.csproj", "{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtocolBuffers-2.4.1.473", "HeuristicLab.ExtLibs\HeuristicLab.ProtobufCS\2.4.1\ProtobufCS\src\ProtocolBuffers\ProtocolBuffers-2.4.1.473.csproj", "{6908BDCE-D925-43F3-94AC-A531E6DF2591}"
 EndProject
@@ -300,10 +293,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibSVM-3.12", "HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\LibSVM-3.12\LibSVM-3.12.csproj", "{4C41E3A3-B2FD-46EA-98FB-F21433E58FBE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.LibSVM-3.12", "HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\HeuristicLab.LibSVM-3.12\HeuristicLab.LibSVM-3.12.csproj", "{005C27BE-ED6E-4602-8199-5F9EB7591CEB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsUI-2.7.0", "HeuristicLab.ExtLibs\HeuristicLab.WinFormsUI\2.7.0\WinFormsUI-2.7.0\WinFormsUI-2.7.0.csproj", "{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.WinFormsUI-2.7.0", "HeuristicLab.ExtLibs\HeuristicLab.WinFormsUI\2.7.0\HeuristicLab.WinFormsUI-2.7.0\HeuristicLab.WinFormsUI-2.7.0.csproj", "{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.AutoDiff-1.0", "HeuristicLab.ExtLibs\HeuristicLab.AutoDiff\1.0\HeuristicLab.AutoDiff-1.0\HeuristicLab.AutoDiff-1.0.csproj", "{C8BB29AC-C64A-4EF4-9773-9208F9AE0B49}"
 EndProject
@@ -731,18 +720,6 @@ Global
 		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|x64.Build.0 = Release|x64
 		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|x86.ActiveCfg = Release|x86
 		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|x86.Build.0 = Release|x86
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Debug|x64.ActiveCfg = Debug|x64
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Debug|x64.Build.0 = Debug|x64
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Debug|x86.ActiveCfg = Debug|x86
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Debug|x86.Build.0 = Debug|x86
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Release|Any CPU.Build.0 = Release|Any CPU
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Release|x64.ActiveCfg = Release|x64
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Release|x64.Build.0 = Release|x64
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Release|x86.ActiveCfg = Release|x86
-		{315BDA09-3F4F-49B3-9790-B37CFC1C5750}.Release|x86.Build.0 = Release|x86
 		{49F28045-7B5F-411B-8D59-16C846FA26E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49F28045-7B5F-411B-8D59-16C846FA26E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49F28045-7B5F-411B-8D59-16C846FA26E0}.Debug|x64.ActiveCfg = Debug|x64
@@ -1439,30 +1416,6 @@ Global
 		{02766ECC-D0F5-4115-9ECA-47409167B638}.Release|x64.Build.0 = Release|x64
 		{02766ECC-D0F5-4115-9ECA-47409167B638}.Release|x86.ActiveCfg = Release|x86
 		{02766ECC-D0F5-4115-9ECA-47409167B638}.Release|x86.Build.0 = Release|x86
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Debug|x64.ActiveCfg = Debug|x64
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Debug|x64.Build.0 = Debug|x64
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Debug|x86.ActiveCfg = Debug|x86
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Debug|x86.Build.0 = Debug|x86
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Release|x64.ActiveCfg = Release|x64
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Release|x64.Build.0 = Release|x64
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Release|x86.ActiveCfg = Release|x86
-		{BB994448-2B21-4564-BB2E-38D8FFF8CF18}.Release|x86.Build.0 = Release|x86
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Debug|x64.ActiveCfg = Debug|x64
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Debug|x64.Build.0 = Debug|x64
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Debug|x86.ActiveCfg = Debug|x86
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Debug|x86.Build.0 = Debug|x86
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Release|x64.ActiveCfg = Release|x64
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Release|x64.Build.0 = Release|x64
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Release|x86.ActiveCfg = Release|x86
-		{96AEBBEE-4203-45F3-BCF5-7B73BF256BDA}.Release|x86.Build.0 = Release|x86
 		{6908BDCE-D925-43F3-94AC-A531E6DF2591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6908BDCE-D925-43F3-94AC-A531E6DF2591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6908BDCE-D925-43F3-94AC-A531E6DF2591}.Debug|x64.ActiveCfg = Debug|x64
@@ -1511,30 +1464,6 @@ Global
 		{005C27BE-ED6E-4602-8199-5F9EB7591CEB}.Release|x64.Build.0 = Release|x64
 		{005C27BE-ED6E-4602-8199-5F9EB7591CEB}.Release|x86.ActiveCfg = Release|x86
 		{005C27BE-ED6E-4602-8199-5F9EB7591CEB}.Release|x86.Build.0 = Release|x86
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Debug|x64.ActiveCfg = Debug|x64
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Debug|x64.Build.0 = Debug|x64
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Debug|x86.ActiveCfg = Debug|x86
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Debug|x86.Build.0 = Debug|x86
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Release|x64.ActiveCfg = Release|x64
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Release|x64.Build.0 = Release|x64
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Release|x86.ActiveCfg = Release|x86
-		{EAF5F178-406C-4844-B1DC-D3AAF3992FDF}.Release|x86.Build.0 = Release|x86
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Debug|x64.ActiveCfg = Debug|x64
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Debug|x64.Build.0 = Debug|x64
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Debug|x86.ActiveCfg = Debug|x86
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Debug|x86.Build.0 = Debug|x86
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Release|x64.ActiveCfg = Release|x64
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Release|x64.Build.0 = Release|x64
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Release|x86.ActiveCfg = Release|x86
-		{3A32A015-9BF9-4EEB-AE80-C5E2B654B860}.Release|x86.Build.0 = Release|x86
 		{C8BB29AC-C64A-4EF4-9773-9208F9AE0B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8BB29AC-C64A-4EF4-9773-9208F9AE0B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8BB29AC-C64A-4EF4-9773-9208F9AE0B49}.Debug|x64.ActiveCfg = Debug|x64
