@@ -4,7 +4,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>HeuristicLab.Problems.Instances.TSPLIB</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <OutputPath>..\..\bin\</OutputPath>
+    <OutputPath>$(SolutionDir)\bin\</OutputPath>
     <CodeAnalysisLogFile>..\..\bin\HeuristicLab.Problems.Instances.TSPLIB-3.3.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>

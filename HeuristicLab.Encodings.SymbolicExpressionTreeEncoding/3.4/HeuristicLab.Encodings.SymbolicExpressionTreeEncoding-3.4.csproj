@@ -93,5 +93,6 @@ export SolutionDir=$(SolutionDir)
 
 $SolutionDir/PreBuildEvent.sh
 </PreBuildEvent>
+    <BaseOutputPath>C:\GitHub\HeuristicLab\bin</BaseOutputPath>
   </PropertyGroup>
 </Project>

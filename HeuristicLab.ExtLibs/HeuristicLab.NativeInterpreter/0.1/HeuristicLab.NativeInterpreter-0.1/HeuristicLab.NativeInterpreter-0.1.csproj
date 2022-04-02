@@ -5,7 +5,7 @@
     <RootNamespace>HeuristicLab.Problems.DataAnalysis.Symbolic.NativeInterpreter</RootNamespace>
     <AssemblyName>HeuristicLab.Problems.DataAnalysis.Symbolic.NativeInterpreter-0.1</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <OutputPath>..\..\..\..\bin\</OutputPath>
+    <OutputPath>$(SolutionDir)\bin\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>

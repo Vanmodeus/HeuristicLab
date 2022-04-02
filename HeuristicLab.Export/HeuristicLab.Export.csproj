@@ -1,0 +1,130 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputPath>$(SolutionDir)\bin\</OutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HEAL.Attic" Version="1.7.0" />
+    <PackageReference Include="ILRepack.MSBuild.Task" Version="2.0.13" />
+  </ItemGroup>
+
+  <Target Name="ILRepack" AfterTargets="Build">
+    <PropertyGroup>
+      <WorkingDirectory>$(SolutionDir)\bin\$(TargetFramework)\</WorkingDirectory>
+    </PropertyGroup>
+    <ILRepack OutputType="$(OutputType)" MainAssembly="$(AssemblyName).dll" OutputAssembly="$(AssemblyName).dll" InputAssemblies="$(WorkingDirectory)\*.dll" WilcardInputAssemblies="true" WorkingDirectory="$(WorkingDirectory)" />
+  </Target>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HeuristicLab.Algorithms.ALPS\3.3\HeuristicLab.Algorithms.ALPS-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.Benchmarks\3.3\HeuristicLab.Algorithms.Benchmarks-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.CMAEvolutionStrategy\3.4\HeuristicLab.Algorithms.CMAEvolutionStrategy-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.DataAnalysis.DecisionTrees\3.4\HeuristicLab.Algorithms.DataAnalysis.DecisionTrees-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.DataAnalysis.Glmnet\3.4\HeuristicLab.Algorithms.DataAnalysis.Glmnet-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.DataAnalysis\3.4\HeuristicLab.Algorithms.DataAnalysis-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.EvolutionStrategy\3.3\HeuristicLab.Algorithms.EvolutionStrategy-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.GeneticAlgorithm\3.3\HeuristicLab.Algorithms.GeneticAlgorithm-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.GradientDescent\3.3\HeuristicLab.Algorithms.GradientDescent-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.LocalSearch\3.3\HeuristicLab.Algorithms.LocalSearch-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.MOCMAEvolutionStrategy\3.3\HeuristicLab.Algorithms.MOCMAEvolutionStrategy-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.MultiObjectiveLocalSearch\3.3\HeuristicLab.Algorithms.MultiObjectiveLocalSearch.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.NSGA2\3.3\HeuristicLab.Algorithms.NSGA2-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.OffspringSelectionEvolutionStrategy\3.3\HeuristicLab.Algorithms.OffspringSelectionEvolutionStrategy-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.OffspringSelectionGeneticAlgorithm\3.3\HeuristicLab.Algorithms.OffspringSelectionGeneticAlgorithm-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.ParameterlessPopulationPyramid\3.3\HeuristicLab.Algorithms.ParameterlessPopulationPyramid-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.ParticleSwarmOptimization\3.3\HeuristicLab.Algorithms.ParticleSwarmOptimization-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.RandomSearch\3.3\HeuristicLab.Algorithms.RandomSearch-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.RAPGA\3.3\HeuristicLab.Algorithms.RAPGA-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.ScatterSearch\3.3\HeuristicLab.Algorithms.ScatterSearch-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.SimulatedAnnealing\3.3\HeuristicLab.Algorithms.SimulatedAnnealing-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.TabuSearch\3.3\HeuristicLab.Algorithms.TabuSearch-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Algorithms.VariableNeighborhoodSearch\3.3\HeuristicLab.Algorithms.VariableNeighborhoodSearch-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Analysis\3.3\HeuristicLab.Analysis-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Collections\3.3\HeuristicLab.Collections-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Common.Resources\3.3\HeuristicLab.Common.Resources-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Common\3.3\HeuristicLab.Common-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Core\3.3\HeuristicLab.Core-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.DataPreprocessing\3.4\HeuristicLab.DataPreprocessing-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Data\3.3\HeuristicLab.Data-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.DebugEngine\3.3\HeuristicLab.DebugEngine-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Encodings.BinaryVectorEncoding\3.3\HeuristicLab.Encodings.BinaryVectorEncoding-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Encodings.IntegerVectorEncoding\3.3\HeuristicLab.Encodings.IntegerVectorEncoding-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Encodings.LinearLinkageEncoding\3.4\HeuristicLab.Encodings.LinearLinkageEncoding-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Encodings.PermutationEncoding\3.3\HeuristicLab.Encodings.PermutationEncoding-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Encodings.RealVectorEncoding\3.3\HeuristicLab.Encodings.RealVectorEncoding-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Encodings.ScheduleEncoding\3.3\HeuristicLab.Encodings.ScheduleEncoding-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Encodings.SymbolicExpressionTreeEncoding\3.4\HeuristicLab.Encodings.SymbolicExpressionTreeEncoding-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.15.0\HeuristicLab.ALGLIB-3.15.0\HeuristicLab.ALGLIB-3.15.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.17.0\ALGLIB-3.17.0\ALGLIB-3.17.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.17.0\HeuristicLab.ALGLIB-3.17.0\HeuristicLab.ALGLIB-3.17.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.7.0\ALGLIB-3.7.0\ALGLIB-3.7.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.7.0\HeuristicLab.ALGLIB-3.7.0\HeuristicLab.ALGLIB-3.7.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.AutoDiff\1.0\AutoDiff-1.0\AutoDiff-1.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.AutoDiff\1.0\HeuristicLab.AutoDiff-1.0\HeuristicLab.AutoDiff-1.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.Cecil\0.9.5\Mono.Cecil-0.9.5\Mono.Cecil-0.9.5.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.DayView\1.0\HeuristicLab.DayView-1.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.DotNetScilab\1.0\DotNetScilab-1.0\DotNetScilab-1.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.DotNetScilab\1.0\HeuristicLab.DotNetScilab-1.0\HeuristicLab.DotNetScilab-1.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.Igraph\0.8.0-pre\HeuristicLab.Igraph-0.8.0-pre\HeuristicLab.IGraph-0.8.0-pre.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\HeuristicLab.LibSVM-3.12\HeuristicLab.LibSVM-3.12.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\LibSVM-3.12\LibSVM-3.12.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.MatlabConnector\1.0\HeuristicLab.MatlabConnector-1.0\HeuristicLab.MatlabConnector-1.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.NativeInterpreter\0.1\HeuristicLab.NativeInterpreter-0.1\HeuristicLab.NativeInterpreter-0.1.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.NRefactory\5.5.0\HeuristicLab.NRefactory-5.5.0\HeuristicLab.NRefactory-5.5.0.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ProtobufCS\2.4.1\ProtobufCS\src\ProtocolBuffers\ProtocolBuffers-2.4.1.473.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Hive\3.3\HeuristicLab.Hive-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Operators.Programmable\3.3\HeuristicLab.Operators.Programmable-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Operators\3.3\HeuristicLab.Operators-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Optimization.Operators\3.3\HeuristicLab.Optimization.Operators-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Optimization\3.3\HeuristicLab.Optimization-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.ParallelEngine\3.3\HeuristicLab.ParallelEngine-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Parameters\3.3\HeuristicLab.Parameters-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Persistence\3.3\HeuristicLab.Persistence-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.PluginInfrastructure\3.3\HeuristicLab.PluginInfrastructure-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Binary\3.3\HeuristicLab.Problems.Binary-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.BinPacking\3.3\HeuristicLab.Problems.BinPacking-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.DataAnalysis.Symbolic.Classification\3.4\HeuristicLab.Problems.DataAnalysis.Symbolic.Classification-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.DataAnalysis.Symbolic.Regression\3.4\HeuristicLab.Problems.DataAnalysis.Symbolic.Regression-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.DataAnalysis.Symbolic.TimeSeriesPrognosis\3.4\HeuristicLab.Problems.DataAnalysis.Symbolic.TimeSeriesPrognosis-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.DataAnalysis.Symbolic\3.4\HeuristicLab.Problems.DataAnalysis.Symbolic-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.DataAnalysis.Trading\3.4\HeuristicLab.Problems.DataAnalysis.Trading-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.DataAnalysis\3.4\HeuristicLab.Problems.DataAnalysis-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.GeneticProgramming\3.3\HeuristicLab.Problems.GeneticProgramming-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.GrammaticalEvolution\3.4\HeuristicLab.Problems.GrammaticalEvolution-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.GraphColoring\3.3\HeuristicLab.Problems.GraphColoring-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.CordeauGQAP\3.3\HeuristicLab.Problems.Instances.CordeauGQAP-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.DataAnalysis\3.3\HeuristicLab.Problems.Instances.DataAnalysis-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.DIMACS\3.3\HeuristicLab.Problems.Instances.DIMACS-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.ElloumiCTAP\3.3\HeuristicLab.Problems.Instances.ElloumiCTAP-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.Orienteering\3.3\HeuristicLab.Problems.Instances.Orienteering-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.QAPLIB\3.3\HeuristicLab.Problems.Instances.QAPLIB-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.Scheduling\3.3\HeuristicLab.Problems.Instances.Scheduling-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.TSPLIB\3.3\HeuristicLab.Problems.Instances.TSPLIB-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances.VehicleRouting\3.4\HeuristicLab.Problems.Instances.VehicleRouting-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Instances\3.3\HeuristicLab.Problems.Instances-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Knapsack\3.3\HeuristicLab.Problems.Knapsack-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.LinearAssignment\3.3\HeuristicLab.Problems.LinearAssignment-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.NK\3.3\HeuristicLab.Problems.NK-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Orienteering\3.3\HeuristicLab.Problems.Orienteering-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.ParameterOptimization\3.3\HeuristicLab.Problems.ParameterOptimization-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Programmable\3.3\HeuristicLab.Problems.Programmable-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.PTSP\3.3\HeuristicLab.Problems.PTSP-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.QuadraticAssignment.Algorithms\3.3\HeuristicLab.Problems.QuadraticAssignment.Algorithms-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.QuadraticAssignment\3.3\HeuristicLab.Problems.QuadraticAssignment-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.Scheduling\3.3\HeuristicLab.Problems.Scheduling-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.TestFunctions.MultiObjective\3.3\HeuristicLab.Problems.TestFunctions.MultiObjective-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.TestFunctions\3.3\HeuristicLab.Problems.TestFunctions-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.TravelingSalesman\3.3\HeuristicLab.Problems.TravelingSalesman-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Problems.VehicleRouting\3.4\HeuristicLab.Problems.VehicleRouting-3.4.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Random\3.3\HeuristicLab.Random-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Scripting\3.3\HeuristicLab.Scripting-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Selection\3.3\HeuristicLab.Selection-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.SequentialEngine\3.3\HeuristicLab.SequentialEngine-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab.Tracing\3.3\HeuristicLab.Tracing-3.3.csproj" />
+    <ProjectReference Include="..\HeuristicLab\3.3\HeuristicLab-3.3.csproj" />
+  </ItemGroup>
+
+</Project>

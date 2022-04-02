@@ -13,6 +13,14 @@ FOR /F "tokens=*" %%G IN ('DIR /AD /B') DO (
       RMDIR /S /Q "%%G\%%T\obj"
     )
   )
+ IF EXIST "%%G\bin" (
+      ECHO Cleaning "bin" in %%G ...
+      RMDIR /S /Q "%%G\bin"
+    )
+    IF EXIST "%%G\obj" (
+      ECHO Cleaning "obj" in %%G ...
+      RMDIR /S /Q "%%G\obj"
+    )
 )
 
 IF EXIST bin (

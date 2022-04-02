@@ -7,10 +7,10 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\keys\Google.ProtocolBuffers.snk</AssemblyOriginatorKeyFile>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <OutputPath>..\..\..\..\..\..\bin\</OutputPath>
+    <OutputPath>$(SolutionDir)\bin\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <OutputPath>..\..\..\..\..\..\bin\</OutputPath>
+    <OutputPath>$(SolutionDir)\bin\</OutputPath>
     <NoWarn>1591, 1570, 1571, 1572, 1573, 1574</NoWarn>
     <NoStdLib>true</NoStdLib>
     <CodeAnalysisLogFile>bin\Debug\Google.ProtocolBuffers.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
@@ -21,7 +21,7 @@
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <OutputPath>..\..\..\..\..\..\bin\</OutputPath>
+    <OutputPath>$(SolutionDir)\bin\</OutputPath>
     <NoWarn>1591, 1570, 1571, 1572, 1573, 1574</NoWarn>
     <NoStdLib>true</NoStdLib>
     <CodeAnalysisLogFile>bin\Release\Google.ProtocolBuffers-2.4.1.473.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
@@ -32,7 +32,7 @@
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <OutputPath>..\..\..\..\..\..\bin\</OutputPath>
+    <OutputPath>$(SolutionDir)\bin\</OutputPath>
     <NoWarn>1591, 1570, 1571, 1572, 1573, 1574</NoWarn>
     <NoStdLib>true</NoStdLib>
     <CodeAnalysisLogFile>bin\Debug\Google.ProtocolBuffers.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
@@ -43,7 +43,7 @@
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <OutputPath>..\..\..\..\..\..\bin\</OutputPath>
+    <OutputPath>$(SolutionDir)\bin\</OutputPath>
     <NoWarn>1591, 1570, 1571, 1572, 1573, 1574</NoWarn>
     <NoStdLib>true</NoStdLib>
     <CodeAnalysisLogFile>bin\Release\Google.ProtocolBuffers-2.4.1.473.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>

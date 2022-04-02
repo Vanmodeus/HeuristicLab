@@ -45,7 +45,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab-3.3", "Heurist
 		{2C36CD4F-E5F5-43A4-801A-201EA895FE17} = {2C36CD4F-E5F5-43A4-801A-201EA895FE17}
 		{00814351-4AB8-4088-9B99-F62787B89E93} = {00814351-4AB8-4088-9B99-F62787B89E93}
 		{2C429157-9C34-4DD3-9D5F-B444B751E39A} = {2C429157-9C34-4DD3-9D5F-B444B751E39A}
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A} = {3BD61258-31DA-4B09-89C0-4F71FEF5F05A}
 		{96E5ED5B-187D-4012-9CDA-D85CDAD38342} = {96E5ED5B-187D-4012-9CDA-D85CDAD38342}
 		{E10F395F-C8A6-48AD-B470-9AA7A1F43809} = {E10F395F-C8A6-48AD-B470-9AA7A1F43809}
 		{97198965-AFEA-496B-B3B1-316905C43FD6} = {97198965-AFEA-496B-B3B1-316905C43FD6}
@@ -162,8 +161,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Algorithms.OffspringSelectionGeneticAlgorithm-3.3", "HeuristicLab.Algorithms.OffspringSelectionGeneticAlgorithm\3.3\HeuristicLab.Algorithms.OffspringSelectionGeneticAlgorithm-3.3.csproj", "{F409DD9E-1E9C-4EB1-AA3A-9F6E987C6E58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Common-3.3", "HeuristicLab.Common\3.3\HeuristicLab.Common-3.3.csproj", "{A9AD58B9-3EF9-4CC1-97E5-8D909039FF5C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.MainForm-3.3", "HeuristicLab.MainForm\3.3\HeuristicLab.MainForm-3.3.csproj", "{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.DebugEngine-3.3", "HeuristicLab.DebugEngine\3.3\HeuristicLab.DebugEngine-3.3.csproj", "{49F28045-7B5F-411B-8D59-16C846FA26E0}"
 EndProject
@@ -288,8 +285,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.DayView-1.0", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProtocolBuffers-2.4.1.473", "HeuristicLab.ExtLibs\HeuristicLab.ProtobufCS\2.4.1\ProtobufCS\src\ProtocolBuffers\ProtocolBuffers-2.4.1.473.csproj", "{6908BDCE-D925-43F3-94AC-A531E6DF2591}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.ProtobufCS-2.4.1.473", "HeuristicLab.ExtLibs\HeuristicLab.ProtobufCS\2.4.1\HeuristicLab.ProtobufCS\HeuristicLab.ProtobufCS-2.4.1.473.csproj", "{236459CE-80CF-4991-972F-DE74C826BCCC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibSVM-3.12", "HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\LibSVM-3.12\LibSVM-3.12.csproj", "{4C41E3A3-B2FD-46EA-98FB-F21433E58FBE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.LibSVM-3.12", "HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\HeuristicLab.LibSVM-3.12\HeuristicLab.LibSVM-3.12.csproj", "{005C27BE-ED6E-4602-8199-5F9EB7591CEB}"
@@ -316,15 +311,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.IGraph-0.8.0-p
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.NativeInterpreter-0.1", "HeuristicLab.ExtLibs\HeuristicLab.NativeInterpreter\0.1\HeuristicLab.NativeInterpreter-0.1\HeuristicLab.NativeInterpreter-0.1.csproj", "{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.MathJax-2.7.5", "HeuristicLab.ExtLibs\HeuristicLab.MathJax\2.7.5\HeuristicLab.MathJax-2.7.5\HeuristicLab.MathJax-2.7.5.csproj", "{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.ALGLIB-3.15.0", "HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.15.0\HeuristicLab.ALGLIB-3.15.0\HeuristicLab.ALGLIB-3.15.0.csproj", "{6CAB3410-EBD4-40D9-ABD6-AA95BB684C65}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.Protobuf", "HeuristicLab.ExtLibs\HeuristicLab.Protobuf\3.6.1\HeuristicLab.Protobuf.csproj", "{44B10478-D290-43D3-9757-C08F5292FEA5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.ALGLIB-3.17.0", "HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.17.0\HeuristicLab.ALGLIB-3.17.0\HeuristicLab.ALGLIB-3.17.0.csproj", "{8A56F216-2B71-4F72-B86B-2DE489D578DB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALGLIB-3.17.0", "HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.17.0\ALGLIB-3.17.0\ALGLIB-3.17.0.csproj", "{A9CED8BA-9055-4DA6-A302-A4207C465AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeuristicLab.Export", "HeuristicLab.Export\HeuristicLab.Export.csproj", "{51FDEFBA-1E48-41C9-B98C-601F368C8155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -708,18 +701,6 @@ Global
 		{A9AD58B9-3EF9-4CC1-97E5-8D909039FF5C}.Release|x64.Build.0 = Release|x64
 		{A9AD58B9-3EF9-4CC1-97E5-8D909039FF5C}.Release|x86.ActiveCfg = Release|x86
 		{A9AD58B9-3EF9-4CC1-97E5-8D909039FF5C}.Release|x86.Build.0 = Release|x86
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Debug|x64.ActiveCfg = Debug|x64
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Debug|x64.Build.0 = Debug|x64
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Debug|x86.ActiveCfg = Debug|x86
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Debug|x86.Build.0 = Debug|x86
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|x64.ActiveCfg = Release|x64
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|x64.Build.0 = Release|x64
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|x86.ActiveCfg = Release|x86
-		{3BD61258-31DA-4B09-89C0-4F71FEF5F05A}.Release|x86.Build.0 = Release|x86
 		{49F28045-7B5F-411B-8D59-16C846FA26E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49F28045-7B5F-411B-8D59-16C846FA26E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49F28045-7B5F-411B-8D59-16C846FA26E0}.Debug|x64.ActiveCfg = Debug|x64
@@ -1428,18 +1409,6 @@ Global
 		{6908BDCE-D925-43F3-94AC-A531E6DF2591}.Release|x64.Build.0 = Release|x64
 		{6908BDCE-D925-43F3-94AC-A531E6DF2591}.Release|x86.ActiveCfg = Release|x86
 		{6908BDCE-D925-43F3-94AC-A531E6DF2591}.Release|x86.Build.0 = Release|x86
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Debug|x64.ActiveCfg = Debug|x64
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Debug|x64.Build.0 = Debug|x64
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Debug|x86.ActiveCfg = Debug|x86
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Debug|x86.Build.0 = Debug|x86
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Release|x64.ActiveCfg = Release|x64
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Release|x64.Build.0 = Release|x64
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Release|x86.ActiveCfg = Release|x86
-		{236459CE-80CF-4991-972F-DE74C826BCCC}.Release|x86.Build.0 = Release|x86
 		{4C41E3A3-B2FD-46EA-98FB-F21433E58FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C41E3A3-B2FD-46EA-98FB-F21433E58FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C41E3A3-B2FD-46EA-98FB-F21433E58FBE}.Debug|x64.ActiveCfg = Debug|x64
@@ -1596,18 +1565,6 @@ Global
 		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|x64.Build.0 = Release|Any CPU
 		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|x86.ActiveCfg = Release|Any CPU
 		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|x86.Build.0 = Release|Any CPU
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Debug|x64.ActiveCfg = Debug|x64
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Debug|x64.Build.0 = Debug|x64
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Debug|x86.ActiveCfg = Debug|x86
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Debug|x86.Build.0 = Debug|x86
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Release|x64.ActiveCfg = Release|x64
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Release|x64.Build.0 = Release|x64
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Release|x86.ActiveCfg = Release|x86
-		{31C09AD0-9610-4AFB-AE57-0F10AAC82BE5}.Release|x86.Build.0 = Release|x86
 		{6CAB3410-EBD4-40D9-ABD6-AA95BB684C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CAB3410-EBD4-40D9-ABD6-AA95BB684C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CAB3410-EBD4-40D9-ABD6-AA95BB684C65}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -1620,18 +1577,6 @@ Global
 		{6CAB3410-EBD4-40D9-ABD6-AA95BB684C65}.Release|x64.Build.0 = Release|Any CPU
 		{6CAB3410-EBD4-40D9-ABD6-AA95BB684C65}.Release|x86.ActiveCfg = Release|Any CPU
 		{6CAB3410-EBD4-40D9-ABD6-AA95BB684C65}.Release|x86.Build.0 = Release|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Debug|x64.Build.0 = Debug|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Debug|x86.Build.0 = Debug|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Release|x64.ActiveCfg = Release|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Release|x64.Build.0 = Release|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Release|x86.ActiveCfg = Release|Any CPU
-		{44B10478-D290-43D3-9757-C08F5292FEA5}.Release|x86.Build.0 = Release|Any CPU
 		{8A56F216-2B71-4F72-B86B-2DE489D578DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A56F216-2B71-4F72-B86B-2DE489D578DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A56F216-2B71-4F72-B86B-2DE489D578DB}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -1656,6 +1601,18 @@ Global
 		{A9CED8BA-9055-4DA6-A302-A4207C465AF0}.Release|x64.Build.0 = Release|Any CPU
 		{A9CED8BA-9055-4DA6-A302-A4207C465AF0}.Release|x86.ActiveCfg = Release|Any CPU
 		{A9CED8BA-9055-4DA6-A302-A4207C465AF0}.Release|x86.Build.0 = Release|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Debug|x64.Build.0 = Debug|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Debug|x86.Build.0 = Debug|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Release|x64.ActiveCfg = Release|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Release|x64.Build.0 = Release|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Release|x86.ActiveCfg = Release|Any CPU
+		{51FDEFBA-1E48-41C9-B98C-601F368C8155}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
