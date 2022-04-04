@@ -212,8 +212,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.NRefactory-5.5
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.IGraph-0.8.0-pre", "HeuristicLab.ExtLibs\HeuristicLab.Igraph\0.8.0-pre\HeuristicLab.Igraph-0.8.0-pre\HeuristicLab.IGraph-0.8.0-pre.csproj", "{088D34F2-32EA-43FF-BAA8-22428D5B66BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.NativeInterpreter-0.1", "HeuristicLab.ExtLibs\HeuristicLab.NativeInterpreter\0.1\HeuristicLab.NativeInterpreter-0.1\HeuristicLab.NativeInterpreter-0.1.csproj", "{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeuristicLab.ALGLIB-3.17.0", "HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.17.0\HeuristicLab.ALGLIB-3.17.0\HeuristicLab.ALGLIB-3.17.0.csproj", "{8A56F216-2B71-4F72-B86B-2DE489D578DB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALGLIB-3.17.0", "HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.17.0\ALGLIB-3.17.0\ALGLIB-3.17.0.csproj", "{A9CED8BA-9055-4DA6-A302-A4207C465AF0}"
@@ -1394,18 +1392,6 @@ Global
 		{088D34F2-32EA-43FF-BAA8-22428D5B66BE}.Release|x64.Build.0 = Release|Any CPU
 		{088D34F2-32EA-43FF-BAA8-22428D5B66BE}.Release|x86.ActiveCfg = Release|Any CPU
 		{088D34F2-32EA-43FF-BAA8-22428D5B66BE}.Release|x86.Build.0 = Release|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Debug|x64.Build.0 = Debug|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Debug|x86.Build.0 = Debug|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|x64.ActiveCfg = Release|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|x64.Build.0 = Release|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|x86.ActiveCfg = Release|Any CPU
-		{E05AC63F-6924-4C83-BD0A-EDF3C103C1D8}.Release|x86.Build.0 = Release|Any CPU
 		{8A56F216-2B71-4F72-B86B-2DE489D578DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A56F216-2B71-4F72-B86B-2DE489D578DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A56F216-2B71-4F72-B86B-2DE489D578DB}.Debug|x64.ActiveCfg = Debug|Any CPU
