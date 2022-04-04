@@ -31,7 +31,7 @@ namespace HeuristicLab.Problems.DataAnalysis {
   [StorableType("230B4E4B-41E5-4D33-9BC3-E2DAADDCA5AE")]
   public class IntervalCollection : Item {
     public static new System.Drawing.Image StaticItemImage {
-      get => HeuristicLab.Common.Resources.VSImageLibrary.Object;
+      get => null;
     }
 
     private IDictionary<string, Interval> intervals { get; set; } = new Dictionary<string, Interval>();

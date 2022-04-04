@@ -23,7 +23,7 @@ using System;
 using System.Drawing;
 using HEAL.Attic;
 using HeuristicLab.Common;
-using HeuristicLab.Common.Resources;
+
 using HeuristicLab.Core;
 using HeuristicLab.Data;
 
@@ -36,7 +36,7 @@ namespace HeuristicLab.DataPreprocessing.Filter {
     }
 
     public override Image ItemImage {
-      get { return VSImageLibrary.Filter; }
+      get { return null; }
     }
 
     public new IPreprocessingData ConstrainedValue {

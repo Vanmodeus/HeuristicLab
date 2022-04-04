@@ -33,7 +33,7 @@ namespace HeuristicLab.Analysis {
   [StorableType("4474E8A9-AA2C-4FED-A906-535DC2AC44A3")]
   public class AlleleFrequencyCollectionHistory : ItemCollection<AlleleFrequencyCollection> {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Cab; }
+      get { return null; }
     }
 
     [StorableConstructor]

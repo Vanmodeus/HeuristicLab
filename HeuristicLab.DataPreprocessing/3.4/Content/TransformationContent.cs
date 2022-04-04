@@ -30,7 +30,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("43EBAA29-D1FC-4187-8567-0003D88BD748")]
   public class TransformationContent : PreprocessingContent, IViewShortcut {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
 
     [Storable]

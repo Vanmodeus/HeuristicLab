@@ -32,10 +32,10 @@ namespace HeuristicLab.Problems.DataAnalysis.Symbolic.Classification {
   [Item("NearestNeighborModelCreator", "")]
   public sealed class NearestNeighborModelCreator : ParameterizedNamedItem, ISymbolicClassificationModelCreator {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
     public override Image ItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
 
     public IFixedValueParameter<IntValue> KParameter {

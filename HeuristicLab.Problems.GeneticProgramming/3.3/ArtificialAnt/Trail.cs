@@ -34,7 +34,7 @@ namespace HeuristicLab.Problems.GeneticProgramming.ArtificialAnt {
   [StorableType("6C666B13-1A69-4924-9ED7-4AC06151FDC6")]
   public sealed class Solution : Item {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Image; }
+      get { return null; }
     }
     [Storable]
     public ISymbolicExpressionTree SymbolicExpressionTree { get; private set; }

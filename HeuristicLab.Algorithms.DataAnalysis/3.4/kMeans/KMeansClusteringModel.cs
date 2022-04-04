@@ -36,7 +36,7 @@ namespace HeuristicLab.Algorithms.DataAnalysis {
   [Item("KMeansClusteringModel", "Represents a k-Means clustering model.")]
   public sealed class KMeansClusteringModel : DataAnalysisModel, IClusteringModel {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Function; }
+      get { return null; }
     }
 
     public override IEnumerable<string> VariablesUsedForPrediction {

@@ -41,14 +41,14 @@ namespace HeuristicLab.Optimization {
     public string Filename { get; set; }
 
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Event; }
+      get { return null; }
     }
     public override Image ItemImage {
       get {
-        if (ExecutionState == ExecutionState.Prepared) return HeuristicLab.Common.Resources.VSImageLibrary.ExperimentPrepared;
-        else if (ExecutionState == ExecutionState.Started) return HeuristicLab.Common.Resources.VSImageLibrary.ExperimentStarted;
-        else if (ExecutionState == ExecutionState.Paused) return HeuristicLab.Common.Resources.VSImageLibrary.ExperimentPaused;
-        else if (ExecutionState == ExecutionState.Stopped) return HeuristicLab.Common.Resources.VSImageLibrary.ExperimentStopped;
+        if (ExecutionState == ExecutionState.Prepared) return null;
+        else if (ExecutionState == ExecutionState.Started) return null;
+        else if (ExecutionState == ExecutionState.Paused) return null;
+        else if (ExecutionState == ExecutionState.Stopped) return null;
         else return base.ItemImage;
       }
     }

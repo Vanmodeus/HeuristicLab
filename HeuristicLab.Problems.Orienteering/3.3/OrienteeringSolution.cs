@@ -32,7 +32,7 @@ namespace HeuristicLab.Problems.Orienteering {
   [StorableType("BC58ED08-B9A7-40F3-B8E0-A6B33AA993F4")]
   public sealed class OrienteeringSolution : Item {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Image; }
+      get { return null; }
     }
 
     [Storable]

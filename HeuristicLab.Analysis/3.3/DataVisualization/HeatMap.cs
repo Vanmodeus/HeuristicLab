@@ -31,7 +31,7 @@ namespace HeuristicLab.Analysis {
   [StorableType("863005CD-A281-4A42-AF58-6F0BD0988C79")]
   public class HeatMap : DoubleMatrix {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Gradient; }
+      get { return null; }
     }
 
     private string title;

@@ -35,7 +35,7 @@ namespace HeuristicLab.Problems.VehicleRouting {
   [StorableType("74CBBEDB-DE6E-4122-AC38-F49DC2B85730")]
   public sealed class VRPSolution : Item {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Image; }
+      get { return null; }
     }
 
     [Storable]

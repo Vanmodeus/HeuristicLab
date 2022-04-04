@@ -35,7 +35,7 @@ namespace HeuristicLab.Analysis {
   [StorableType("9706C8CB-4118-400B-9AE2-A4F00D7580B5")]
   public class ScatterPlot : NamedItem, IStringConvertibleMatrix {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Performance; }
+      get { return null; }
     }
 
     private ScatterPlotVisualProperties visualProperties;

@@ -33,7 +33,7 @@ namespace HeuristicLab.Analysis {
   [StorableType("5ECB8C15-4724-4B9A-B667-055CC2FD713A")]
   public class DataTableHistory : ItemCollection<DataTable> {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Cab; }
+      get { return null; }
     }
 
     [StorableConstructor]

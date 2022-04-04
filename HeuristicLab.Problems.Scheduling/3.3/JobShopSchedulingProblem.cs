@@ -76,7 +76,7 @@ namespace HeuristicLab.Problems.Scheduling {
 
     public string Filename { get; set; }
     public override Image ItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Type; }
+      get { return null; }
     }
 
     #region Parameter Properties

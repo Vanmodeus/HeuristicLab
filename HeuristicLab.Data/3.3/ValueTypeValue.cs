@@ -30,7 +30,7 @@ namespace HeuristicLab.Data {
   [StorableType("A78FF29D-A796-463F-A93F-2528A382D99E")]
   public abstract class ValueTypeValue<T> : Item where T : struct {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.ValueType; }
+      get { return null; }
     }
 
     [Storable]

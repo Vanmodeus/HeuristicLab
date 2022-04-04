@@ -30,7 +30,7 @@ namespace HeuristicLab.Data {
   [StorableType("1091C8E5-4480-447C-8EB3-AA260C59976D")]
   public class StringValue : Item, IComparable, IStringConvertibleValue {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Field; }
+      get { return null; }
     }
 
     [Storable]

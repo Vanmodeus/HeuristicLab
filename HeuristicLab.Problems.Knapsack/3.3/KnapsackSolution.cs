@@ -35,7 +35,7 @@ namespace HeuristicLab.Problems.Knapsack {
   [StorableType("C959079D-3D92-4C88-8734-9DADEE851169")]
   public class KnapsackSolution : Item {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Image; }
+      get { return null; }
     }
 
     [Storable]

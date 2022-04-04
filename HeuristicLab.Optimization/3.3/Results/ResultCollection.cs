@@ -41,7 +41,7 @@ namespace HeuristicLab.Optimization {
     }
 
     public static new System.Drawing.Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Object; }
+      get { return null; }
     }
 
     public virtual void CollectResultValues(IDictionary<string, IItem> values) {

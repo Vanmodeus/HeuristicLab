@@ -36,7 +36,7 @@ namespace HeuristicLab.Data {
     private const int maximumToStringLength = 100;
 
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Class; }
+      get { return null; }
     }
 
     [Storable]

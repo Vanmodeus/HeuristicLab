@@ -35,7 +35,7 @@ namespace HeuristicLab.Problems.PTSP {
   [StorableType("8C9E50C9-4364-48F1-B681-9CFFD1147EF0")]
   public sealed class PathPTSPTour : Item {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Image; }
+      get { return null; }
     }
 
     [Storable]

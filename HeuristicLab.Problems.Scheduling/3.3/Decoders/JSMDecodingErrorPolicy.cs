@@ -31,7 +31,7 @@ namespace HeuristicLab.Problems.Scheduling {
   public sealed class JSMDecodingErrorPolicy : ValueTypeValue<JSMDecodingErrorPolicyTypes> {
 
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Enum; }
+      get { return null; }
     }
 
     [StorableConstructor]

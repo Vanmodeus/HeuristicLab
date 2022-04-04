@@ -26,7 +26,7 @@ using System;
 using System.Drawing;
 using System.Linq;
 using HeuristicLab.Common;
-using HeuristicLab.Common.Resources;
+
 using HeuristicLab.Core;
 using HeuristicLab.Data;
 using HeuristicLab.Encodings.IntegerVectorEncoding;
@@ -110,7 +110,7 @@ namespace HeuristicLab.Problems.GrammaticalEvolution {
 
     #region properties
     public string Filename { get; set; }
-    public static new Image StaticItemImage { get { return VSImageLibrary.Type; } }
+    public static new Image StaticItemImage { get { return null; } }
 
     IDataAnalysisProblemData IDataAnalysisProblem.ProblemData {
       get { return ProblemData; }

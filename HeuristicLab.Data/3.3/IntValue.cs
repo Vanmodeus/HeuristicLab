@@ -31,7 +31,7 @@ namespace HeuristicLab.Data {
   [StorableType("1C4F4173-5D67-44CA-8711-53437BB9F7C4")]
   public class IntValue : ValueTypeValue<int>, IComparable, IStringConvertibleValue {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Field; }
+      get { return null; }
     }
 
     [StorableConstructor]

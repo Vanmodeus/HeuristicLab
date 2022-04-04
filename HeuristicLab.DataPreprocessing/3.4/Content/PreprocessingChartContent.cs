@@ -25,7 +25,7 @@ using System.Drawing;
 using System.Linq;
 using HeuristicLab.Analysis;
 using HeuristicLab.Common;
-using HeuristicLab.Common.Resources;
+
 using HeuristicLab.Core;
 using HeuristicLab.Data;
 using HEAL.Attic;
@@ -41,7 +41,7 @@ namespace HeuristicLab.DataPreprocessing {
     }
 
     public static new Image StaticItemImage {
-      get { return VSImageLibrary.PieChart; }
+      get { return null; }
     }
 
     [Storable]

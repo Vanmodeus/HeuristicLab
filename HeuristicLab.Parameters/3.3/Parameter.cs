@@ -35,7 +35,7 @@ namespace HeuristicLab.Parameters {
     public override Image ItemImage {
       get {
         if ((dataType != null) && (typeof(IOperator).IsAssignableFrom(dataType)))
-          return HeuristicLab.Common.Resources.VSImageLibrary.Method;
+          return null;
         else
           return base.ItemImage;
       }

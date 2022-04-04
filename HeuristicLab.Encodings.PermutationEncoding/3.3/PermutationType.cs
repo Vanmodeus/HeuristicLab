@@ -30,7 +30,7 @@ namespace HeuristicLab.Encodings.PermutationEncoding {
   [StorableType("B37C1815-5F82-4E46-BAE3-D71F801EFF46")]
   public class PermutationType : ValueTypeValue<PermutationTypes> {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Enum; }
+      get { return null; }
     }
 
     [StorableConstructor]

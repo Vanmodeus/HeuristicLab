@@ -32,7 +32,7 @@ namespace HeuristicLab.Data {
     where T : class, IDeepCloneable, IStringConvertibleValue
     where U : class, IDeepCloneable, IStringConvertibleValue {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.ValueType; }
+      get { return null; }
     }
 
     [Storable]

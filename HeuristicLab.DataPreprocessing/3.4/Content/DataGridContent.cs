@@ -34,7 +34,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("DC6AE5CE-B0FA-4C8C-BDBB-D490C6DE4174")]
   public class DataGridContent : PreprocessingContent, IStringConvertibleMatrix, IViewShortcut {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Table; }
+      get { return null; }
     }
 
     public int Rows {

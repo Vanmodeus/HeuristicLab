@@ -32,7 +32,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("42EE7A94-807F-482D-BE64-F98B05896B16")]
   public class ManipulationContent : PreprocessingContent, IViewShortcut {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
 
     #region Constructor, Cloning & Persistence

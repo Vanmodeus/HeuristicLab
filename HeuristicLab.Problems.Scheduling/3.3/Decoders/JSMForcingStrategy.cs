@@ -31,7 +31,7 @@ namespace HeuristicLab.Problems.Scheduling {
   public sealed class JSMForcingStrategy : ValueTypeValue<JSMForcingStrategyTypes> {
 
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Enum; }
+      get { return null; }
     }
 
     [StorableConstructor]

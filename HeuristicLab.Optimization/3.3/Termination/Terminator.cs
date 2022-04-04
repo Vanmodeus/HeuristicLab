@@ -33,7 +33,7 @@ namespace HeuristicLab.Optimization {
   [StorableType("E5DC984C-95B3-40F1-9D35-7B6E90A26B8A")]
   public abstract class Terminator : SingleSuccessorOperator, ITerminator {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.FlagRed; }
+      get { return null; }
     }
 
     public ILookupParameter<BoolValue> TerminateParameter {

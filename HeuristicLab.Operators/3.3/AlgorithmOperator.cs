@@ -32,11 +32,11 @@ namespace HeuristicLab.Operators {
   [StorableType("A0F318EF-7614-4208-99C0-56DF89D4C23D")]
   public abstract class AlgorithmOperator : SingleSuccessorOperator, IOperatorGraphOperator {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Module; }
+      get { return null; }
     }
     public override Image ItemImage {
       get {
-        if (Breakpoint) return HeuristicLab.Common.Resources.VSImageLibrary.BreakpointActive;
+        if (Breakpoint) return null;
         else return base.ItemImage;
       }
     }

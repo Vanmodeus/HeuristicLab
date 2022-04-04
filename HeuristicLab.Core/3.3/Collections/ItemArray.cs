@@ -41,7 +41,7 @@ namespace HeuristicLab.Core {
       get { return ItemAttribute.GetVersion(this.GetType()); }
     }
     public static Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Class; }
+      get { return null; }
     }
     public virtual Image ItemImage {
       get { return ItemAttribute.GetImage(this.GetType()); }

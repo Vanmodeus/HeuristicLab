@@ -22,7 +22,7 @@
 using System;
 using System.Drawing;
 using HeuristicLab.Common;
-using HeuristicLab.Common.Resources;
+
 using HeuristicLab.Core;
 using HeuristicLab.Parameters;
 using HEAL.Attic;
@@ -31,7 +31,7 @@ namespace HeuristicLab.Optimization {
   [Item("ResultParameter", "A parameter whose value is written to a result collection.")]
   [StorableType("CF10EF50-82B6-4A98-82C0-3C5ECED48904")]
   public sealed class ResultParameter<T> : LookupParameter<T>, IResultParameter<T> where T : class, IItem {
-    public override Image ItemImage { get { return VSImageLibrary.Exception; } }
+    public override Image ItemImage { get { return null; } }
     public override bool CanChangeDescription { get { return true; } }
 
     [Storable]

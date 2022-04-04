@@ -33,7 +33,7 @@ namespace HeuristicLab.Analysis {
   [StorableType("2FDE6993-8841-4E1B-BAD0-F0EAF0822C7E")]
   public class ScatterPlotHistory : ItemCollection<ScatterPlot> {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Cab; }
+      get { return null; }
     }
 
     [StorableConstructor]

@@ -33,7 +33,7 @@ namespace HeuristicLab.Analysis {
   [StorableType("7E282E3E-673B-4D98-AB51-48DE22E50E43")]
   public class HeatMapHistory : ItemCollection<HeatMap> {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Cab; }
+      get { return null; }
     }
 
     [StorableConstructor]

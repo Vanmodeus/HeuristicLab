@@ -29,7 +29,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("09B05895-BEE1-4D52-A6ED-504472D8A1FE")]
   public class StatisticsContent : PreprocessingContent, IViewShortcut {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Object; }
+      get { return null; }
     }
 
     #region Constructor, Cloning & Persistence

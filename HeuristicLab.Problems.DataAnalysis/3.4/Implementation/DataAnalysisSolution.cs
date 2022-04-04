@@ -38,7 +38,7 @@ namespace HeuristicLab.Problems.DataAnalysis {
     public string Filename { get; set; }
 
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Function; }
+      get { return null; }
     }
 
     #region properties

@@ -32,10 +32,10 @@ namespace HeuristicLab.Problems.DataAnalysis.Symbolic.Classification {
   [Item("NormalDistributedThresholdsModelCreator", "")]
   public sealed class NormalDistributedThresholdsModelCreator : Item, ISymbolicDiscriminantFunctionClassificationModelCreator {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
     public override Image ItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
     [StorableConstructor]
     private NormalDistributedThresholdsModelCreator(StorableConstructorFlag _) : base(_) { }

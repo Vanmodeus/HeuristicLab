@@ -39,7 +39,7 @@ namespace HeuristicLab.Optimization {
     }
 
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Type; }
+      get { return null; }
     }
 
     [StorableConstructor]

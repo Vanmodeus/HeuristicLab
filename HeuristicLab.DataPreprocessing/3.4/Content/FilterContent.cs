@@ -32,7 +32,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("A1676153-6E8F-48B5-8FC4-EB0E8060179D")]
   public class FilterContent : PreprocessingContent, IViewShortcut {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Filter; }
+      get { return null; }
     }
     [Storable]
     public ICheckedItemCollection<IFilter> Filters { get; private set; }

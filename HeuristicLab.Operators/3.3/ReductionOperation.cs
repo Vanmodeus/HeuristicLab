@@ -43,7 +43,7 @@ namespace HeuristicLab.Operators {
   [StorableType("32D733BA-9331-46D2-8BB3-95E23431F00B")]
   public class ReductionOperation : ValueTypeValue<ReductionOperations> {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Enum; }
+      get { return null; }
     }
 
     [StorableConstructor]

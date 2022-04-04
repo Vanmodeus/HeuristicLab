@@ -35,7 +35,7 @@ namespace HeuristicLab.Problems.TravelingSalesman {
   [StorableType("2CAE7C49-751B-4802-9025-62E2268E47AE")]
   public sealed class PathTSPTour : Item {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Image; }
+      get { return null; }
     }
 
     [Storable]

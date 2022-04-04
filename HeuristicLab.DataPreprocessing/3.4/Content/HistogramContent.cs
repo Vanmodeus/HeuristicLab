@@ -32,7 +32,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("FD29EAB3-ABE6-49F4-A162-16E11790F7D5")]
   public class HistogramContent : PreprocessingChartContent {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Statistics; }
+      get { return null; }
     }
 
     [Storable]

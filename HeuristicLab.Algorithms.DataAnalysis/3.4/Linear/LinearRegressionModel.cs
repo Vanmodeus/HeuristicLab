@@ -36,7 +36,7 @@ namespace HeuristicLab.Algorithms.DataAnalysis {
   [Item("Linear Regression Model", "Represents a linear regression model.")]
   public sealed class LinearRegressionModel : RegressionModel, IConfidenceRegressionModel {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Function; }
+      get { return null; }
     }
 
     [Storable]

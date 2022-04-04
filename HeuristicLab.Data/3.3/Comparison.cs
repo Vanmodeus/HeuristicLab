@@ -30,7 +30,7 @@ namespace HeuristicLab.Data {
   [StorableType("2753AB02-748C-47C8-8D55-A1C43A57DF7D")]
   public class Comparison : ValueTypeValue<ComparisonType>, IComparable {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Enum; }
+      get { return null; }
     }
 
     [StorableConstructor]

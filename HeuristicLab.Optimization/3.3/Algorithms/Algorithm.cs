@@ -39,14 +39,14 @@ namespace HeuristicLab.Optimization {
   [StorableType("7879C550-E8C2-4121-84C3-DADB06BD5C96")]
   public abstract class Algorithm : ParameterizedNamedItem, IAlgorithm {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Event; }
+      get { return null; }
     }
     public override Image ItemImage {
       get {
-        if (ExecutionState == ExecutionState.Prepared) return HeuristicLab.Common.Resources.VSImageLibrary.ExecutablePrepared;
-        else if (ExecutionState == ExecutionState.Started) return HeuristicLab.Common.Resources.VSImageLibrary.ExecutableStarted;
-        else if (ExecutionState == ExecutionState.Paused) return HeuristicLab.Common.Resources.VSImageLibrary.ExecutablePaused;
-        else if (ExecutionState == ExecutionState.Stopped) return HeuristicLab.Common.Resources.VSImageLibrary.ExecutableStopped;
+        if (ExecutionState == ExecutionState.Prepared) return null;
+        else if (ExecutionState == ExecutionState.Started) return null;
+        else if (ExecutionState == ExecutionState.Paused) return null;
+        else if (ExecutionState == ExecutionState.Stopped) return null;
         else return base.ItemImage;
       }
     }

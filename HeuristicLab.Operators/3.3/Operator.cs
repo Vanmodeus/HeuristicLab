@@ -35,11 +35,11 @@ namespace HeuristicLab.Operators {
   [StorableType("6AC01841-FF13-41B5-87E4-181F10D08835")]
   public abstract partial class Operator : ParameterizedNamedItem, IOperator, IStatefulItem {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
     public override Image ItemImage {
       get {
-        if (Breakpoint) return HeuristicLab.Common.Resources.VSImageLibrary.BreakpointActive;
+        if (Breakpoint) return null;
         else return base.ItemImage;
       }
     }

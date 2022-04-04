@@ -33,7 +33,7 @@ namespace HeuristicLab.Core {
     public string Filename { get; set; }
 
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.File; }
+      get { return null; }
     }
 
     [Storable]

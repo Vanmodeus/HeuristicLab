@@ -35,7 +35,7 @@ namespace HeuristicLab.Optimization {
   [StorableType("E03CCB0D-C76C-4DBC-94C5-8FED50E25D26")]
   public sealed class MultiTerminator : CheckedMultiOperator<ITerminator>, ITerminator {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.FlagRed; }
+      get { return null; }
     }
     
     public ILookupParameter<BoolValue> TerminateParameter {

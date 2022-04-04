@@ -36,7 +36,7 @@ namespace HeuristicLab.Problems.TestFunctions {
   [StorableType("F1CC46D2-10F1-4D14-AEF0-A575B67A0955")]
   public class SingleObjectiveTestFunctionSolution : Item {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Image; }
+      get { return null; }
     }
 
     [Storable]

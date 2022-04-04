@@ -31,10 +31,10 @@ namespace HeuristicLab.Problems.DataAnalysis.Symbolic.Classification {
   [Item("AccuracyMaximizingThresholdsModelCreator", "")]
   public sealed class AccuracyMaximizingThresholdsModelCreator : Item, ISymbolicDiscriminantFunctionClassificationModelCreator {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
     public override Image ItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+      get { return null; }
     }
     [StorableConstructor]
     private AccuracyMaximizingThresholdsModelCreator(StorableConstructorFlag _) : base(_) { }

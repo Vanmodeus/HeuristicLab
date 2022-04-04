@@ -30,7 +30,7 @@ namespace HeuristicLab.Data {
   [StorableType("1D2E4514-1B3B-4498-9A1F-3D90C69635CA")]
   public sealed class EnumValue<T> : ValueTypeValue<T>, IComparable<EnumValue<T>> where T : struct, IComparable {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Enum; }
+      get { return null; }
     }
 
     static EnumValue() {

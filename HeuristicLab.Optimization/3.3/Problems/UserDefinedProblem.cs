@@ -43,7 +43,7 @@ namespace HeuristicLab.Optimization {
     public string Filename { get; set; }
 
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Type; }
+      get { return null; }
     }
     public new ParameterCollection Parameters {
       get { return base.Parameters; }
@@ -276,7 +276,7 @@ namespace HeuristicLab.Optimization {
       #endregion
 
       public static new Image StaticItemImage {
-        get { return HeuristicLab.Common.Resources.VSImageLibrary.Method; }
+        get { return null; }
       }
     }
   }

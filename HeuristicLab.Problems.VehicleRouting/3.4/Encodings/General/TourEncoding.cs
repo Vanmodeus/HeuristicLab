@@ -31,7 +31,7 @@ namespace HeuristicLab.Problems.VehicleRouting.Encodings.General {
   [StorableType("FC5DBAE6-05D9-4C55-AA85-6E3C2330700F")]
   public abstract class TourEncoding : Item, IVRPEncoding {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Class; }
+      get { return null; }
     }
 
     #region IVRPEncoding Members

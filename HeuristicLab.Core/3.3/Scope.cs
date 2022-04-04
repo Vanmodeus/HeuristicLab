@@ -32,7 +32,7 @@ namespace HeuristicLab.Core {
   [StorableType("57AAC5CA-2EEF-4ECB-80DA-1B8F3B750A2B")]
   public sealed class Scope : NamedItem, IScope {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.OrgChart; }
+      get { return null; }
     }
 
     [Storable]

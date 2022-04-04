@@ -34,7 +34,7 @@ namespace HeuristicLab.Problems.DataAnalysis.Symbolic {
   [StorableType("EE72299A-7F04-40DA-994E-F12EF9B12CE7")]
   public abstract class SymbolicDataAnalysisModel : DataAnalysisModel, ISymbolicDataAnalysisModel {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Function; }
+      get { return null; }
     }
 
     #region properties

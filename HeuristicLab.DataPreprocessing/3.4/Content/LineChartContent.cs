@@ -29,7 +29,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("F874E5FD-27A8-471F-91D5-598392655FA4")]
   public class LineChartContent : PreprocessingChartContent {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Performance; }
+      get { return null; }
     }
 
     [Storable]

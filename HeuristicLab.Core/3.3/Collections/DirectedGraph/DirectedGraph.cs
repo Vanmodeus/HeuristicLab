@@ -24,14 +24,14 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using HeuristicLab.Common;
-using HeuristicLab.Common.Resources;
+
 using HEAL.Attic;
 
 namespace HeuristicLab.Core {
   [Item("DirectedGraph", "Generic class representing a directed graph with custom vertices and content")]
   [StorableType("C7DF8A65-95AE-4D73-950B-27A8086D7DA2")]
   public class DirectedGraph : Item, IDirectedGraph {
-    public override Image ItemImage { get { return VSImageLibrary.Graph; } }
+    public override Image ItemImage { get { return null; } }
 
     private HashSet<IVertex> vertices;
     [Storable]

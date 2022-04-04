@@ -30,7 +30,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("E6B5FD30-847E-4AA5-8638-9CD166E10C22")]
   public class CorrelationMatrixContent : PreprocessingContent, IViewShortcut {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Gradient; }
+      get { return null; }
     }
 
     [Storable]

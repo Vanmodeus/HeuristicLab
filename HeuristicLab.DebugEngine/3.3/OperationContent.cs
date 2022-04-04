@@ -21,7 +21,7 @@
 
 using System.Drawing;
 using HeuristicLab.Common;
-using HeuristicLab.Common.Resources;
+
 using HeuristicLab.Core;
 
 namespace HeuristicLab.DebugEngine {
@@ -42,16 +42,16 @@ namespace HeuristicLab.DebugEngine {
       if (AtomicOperation != null) {
         Name = Utils.Name(AtomicOperation);
         if (AtomicOperation.Operator != null && AtomicOperation.Operator.Breakpoint) {
-          Icon = VSImageLibrary.BreakpointActive;
+          Icon = null;
         } else {
-          Icon = VSImageLibrary.Method;
+          Icon = null;
         }
       } else if (Collection != null) {
         Name = string.Format("{0} Operations", Collection.Count);
-        Icon = VSImageLibrary.Module;
+        Icon = null;
       } else {
         Name = "";
-        Icon = VSImageLibrary.Nothing;
+        Icon = null;
       }
     }
 

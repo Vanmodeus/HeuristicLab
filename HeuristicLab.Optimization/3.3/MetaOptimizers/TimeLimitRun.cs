@@ -29,7 +29,7 @@ using System.Threading.Tasks;
 using HEAL.Attic;
 using HeuristicLab.Collections;
 using HeuristicLab.Common;
-using HeuristicLab.Common.Resources;
+
 using HeuristicLab.Core;
 
 namespace HeuristicLab.Optimization {
@@ -44,10 +44,10 @@ namespace HeuristicLab.Optimization {
 
     #region ItemImage
     public static new Image StaticItemImage {
-      get { return VSImageLibrary.Event; }
+      get { return null; }
     }
     public override Image ItemImage {
-      get { return (Algorithm != null) ? Algorithm.ItemImage : VSImageLibrary.ExecutableStopped; }
+      get { return (Algorithm != null) ? Algorithm.ItemImage : null; }
     }
     #endregion
 

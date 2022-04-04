@@ -31,14 +31,14 @@ namespace HeuristicLab.Core {
   [StorableType("17DFB815-4CF8-49EB-BC4A-98059064DB31")]
   public abstract class Executable : Item, IExecutable {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.Event; }
+      get { return null; }
     }
     public override Image ItemImage {
       get {
-        if (ExecutionState == ExecutionState.Prepared) return HeuristicLab.Common.Resources.VSImageLibrary.ExecutablePrepared;
-        else if (ExecutionState == ExecutionState.Started) return HeuristicLab.Common.Resources.VSImageLibrary.ExecutableStarted;
-        else if (ExecutionState == ExecutionState.Paused) return HeuristicLab.Common.Resources.VSImageLibrary.ExecutablePaused;
-        else if (ExecutionState == ExecutionState.Stopped) return HeuristicLab.Common.Resources.VSImageLibrary.ExecutableStopped;
+        if (ExecutionState == ExecutionState.Prepared) return null;
+        else if (ExecutionState == ExecutionState.Started) return null;
+        else if (ExecutionState == ExecutionState.Paused) return null;
+        else if (ExecutionState == ExecutionState.Stopped) return null;
         else return base.ItemImage;
       }
     }

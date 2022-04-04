@@ -29,7 +29,7 @@ namespace HeuristicLab.DataPreprocessing {
   [StorableType("C3709BBA-D024-482C-9D28-E15B1F2B2F54")]
   public class DataCompletenessChartContent : PreprocessingContent, IViewShortcut {
     public static new Image StaticItemImage {
-      get { return HeuristicLab.Common.Resources.VSImageLibrary.EditBrightnessContrast; }
+      get { return null; }
     }
 
     #region Constructor, Cloning & Persistence
