@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <OutputPath>$(SolutionDir)\bin\</OutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
   <ItemGroup>
@@ -50,7 +51,6 @@
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.7.0\HeuristicLab.ALGLIB-3.7.0\HeuristicLab.ALGLIB-3.7.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.AutoDiff\1.0\AutoDiff-1.0\AutoDiff-1.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.AutoDiff\1.0\HeuristicLab.AutoDiff-1.0\HeuristicLab.AutoDiff-1.0.csproj" />
-    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.Cecil\0.9.5\Mono.Cecil-0.9.5\Mono.Cecil-0.9.5.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.DayView\1.0\HeuristicLab.DayView-1.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.DotNetScilab\1.0\DotNetScilab-1.0\DotNetScilab-1.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.DotNetScilab\1.0\HeuristicLab.DotNetScilab-1.0\HeuristicLab.DotNetScilab-1.0.csproj" />
@@ -62,7 +62,6 @@
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.NRefactory\5.5.0\HeuristicLab.NRefactory-5.5.0\HeuristicLab.NRefactory-5.5.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ProtobufCS\2.4.1\ProtobufCS\src\ProtocolBuffers\ProtocolBuffers-2.4.1.473.csproj" />
     <ProjectReference Include="..\HeuristicLab.Hive\3.3\HeuristicLab.Hive-3.3.csproj" />
-    <ProjectReference Include="..\HeuristicLab.Operators.Programmable\3.3\HeuristicLab.Operators.Programmable-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Operators\3.3\HeuristicLab.Operators-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Optimization.Operators\3.3\HeuristicLab.Optimization.Operators-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Optimization\3.3\HeuristicLab.Optimization-3.3.csproj" />
@@ -96,7 +95,6 @@
     <ProjectReference Include="..\HeuristicLab.Problems.NK\3.3\HeuristicLab.Problems.NK-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Problems.Orienteering\3.3\HeuristicLab.Problems.Orienteering-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Problems.ParameterOptimization\3.3\HeuristicLab.Problems.ParameterOptimization-3.3.csproj" />
-    <ProjectReference Include="..\HeuristicLab.Problems.Programmable\3.3\HeuristicLab.Problems.Programmable-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Problems.PTSP\3.3\HeuristicLab.Problems.PTSP-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Problems.QuadraticAssignment.Algorithms\3.3\HeuristicLab.Problems.QuadraticAssignment.Algorithms-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Problems.QuadraticAssignment\3.3\HeuristicLab.Problems.QuadraticAssignment-3.3.csproj" />
@@ -106,7 +104,6 @@
     <ProjectReference Include="..\HeuristicLab.Problems.TravelingSalesman\3.3\HeuristicLab.Problems.TravelingSalesman-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Problems.VehicleRouting\3.4\HeuristicLab.Problems.VehicleRouting-3.4.csproj" />
     <ProjectReference Include="..\HeuristicLab.Random\3.3\HeuristicLab.Random-3.3.csproj" />
-    <ProjectReference Include="..\HeuristicLab.Scripting\3.3\HeuristicLab.Scripting-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Selection\3.3\HeuristicLab.Selection-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.SequentialEngine\3.3\HeuristicLab.SequentialEngine-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Tracing\3.3\HeuristicLab.Tracing-3.3.csproj" />
