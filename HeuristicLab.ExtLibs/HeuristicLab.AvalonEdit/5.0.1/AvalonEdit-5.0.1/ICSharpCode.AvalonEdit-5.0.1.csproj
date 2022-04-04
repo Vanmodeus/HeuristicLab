@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>$(SolutionDir)\bin\</OutputPath>
     <DefineConstants>TRACE;DEBUG;DOTNET4;NREFACTORY</DefineConstants>
