@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -51,7 +51,6 @@
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ALGLIB\3.7.0\HeuristicLab.ALGLIB-3.7.0\HeuristicLab.ALGLIB-3.7.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.AutoDiff\1.0\AutoDiff-1.0\AutoDiff-1.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.AutoDiff\1.0\HeuristicLab.AutoDiff-1.0\HeuristicLab.AutoDiff-1.0.csproj" />
-    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.DayView\1.0\HeuristicLab.DayView-1.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\HeuristicLab.LibSVM-3.12\HeuristicLab.LibSVM-3.12.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\LibSVM-3.12\LibSVM-3.12.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.NRefactory\5.5.0\HeuristicLab.NRefactory-5.5.0\HeuristicLab.NRefactory-5.5.0.csproj" />
