@@ -56,7 +56,6 @@
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.LibSVM\3.12\LibSVM-3.12\LibSVM-3.12.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.MatlabConnector\1.0\HeuristicLab.MatlabConnector-1.0\HeuristicLab.MatlabConnector-1.0.csproj" />
     <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.NRefactory\5.5.0\HeuristicLab.NRefactory-5.5.0\HeuristicLab.NRefactory-5.5.0.csproj" />
-    <ProjectReference Include="..\HeuristicLab.ExtLibs\HeuristicLab.ProtobufCS\2.4.1\ProtobufCS\src\ProtocolBuffers\ProtocolBuffers-2.4.1.473.csproj" />
     <ProjectReference Include="..\HeuristicLab.Hive\3.3\HeuristicLab.Hive-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Operators\3.3\HeuristicLab.Operators-3.3.csproj" />
     <ProjectReference Include="..\HeuristicLab.Optimization.Operators\3.3\HeuristicLab.Optimization.Operators-3.3.csproj" />
